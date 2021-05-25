@@ -21,6 +21,9 @@ public class ProductDTO implements Serializable {
 	
 	private List<CategoryDTO> categories = new ArrayList<>();
 
+	public ProductDTO() {
+	}
+	
 	public ProductDTO(Long id, String name, String description, Double price, String imgUrl, Instant date) {
 		this.id = id;
 		this.name = name;
