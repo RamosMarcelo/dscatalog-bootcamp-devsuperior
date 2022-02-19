@@ -1,6 +1,6 @@
 import Pagination from 'components/Pagination';
 import ProductCard from 'components/ProductCard';
-import { Product } from 'components/types/product';
+import { Product } from 'types/product';
 import { Link } from 'react-router-dom';
 
 import './styles.css';
